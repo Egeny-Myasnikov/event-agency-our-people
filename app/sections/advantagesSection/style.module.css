@@ -1,0 +1,40 @@
+.advantagesSection{
+margin-top: 160px;
+padding: 0 20px;
+}
+
+.list{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.item{
+    display: flex;
+    flex: 1 0 280px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.svgIcon{
+    width: 60px;
+    height: 60px;
+    stroke-width: 2px;
+    stroke: var(--first-color);
+    fill:transparent;
+    filter: drop-shadow(0px 0px 7px var(--first-color));
+}
+.title{
+    color: var(--first-color);
+    font-size: var(--title__sm);
+}
+.text{
+margin-top: 15px;
+line-height: 1.5;
+font-size: var(--text__sm);
+}

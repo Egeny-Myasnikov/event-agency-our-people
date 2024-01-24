@@ -1,0 +1,27 @@
+.list{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+}
+
+.description{
+    margin-top: 100px;
+    font-size: var(--title__sm);
+    font-weight: normal;
+}
+
+.fadeIn{
+    opacity: 1;
+    transform: translateX(0);
+    transition: .4s;
+}
+.fadeOut{
+    transition: .4s;
+    opacity: 0;
+    transform: translateX(-100%);
+
+
+}
