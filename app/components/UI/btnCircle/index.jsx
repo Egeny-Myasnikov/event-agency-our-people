@@ -6,6 +6,7 @@ export const BtnCircle = ({ children, onClick, onTouchEnd, onTouchStart, classNa
         onTouchEnd={onTouchEnd}
         onClick={onClick}
         className={`${className} ${s.btn}`}
+        type='button'
         >
             {children}
         </button>

@@ -6,6 +6,8 @@ import { ContactsBlock } from '@/app/components/contactsBlock'
 import { Button } from '@/app/components/UI/button'
 import { useEffect, useState } from 'react'
 import { ModalWindow } from '@/app/components/modalWindow'
+import { CForm } from '@/app/components/cForm'
+import { SocIcons } from '@/app/components/socIcons'
 const links = [
     { href: '/projectsPage', text: 'Проекты' },
     { href: '/about', text: 'О нас' },
@@ -71,8 +73,9 @@ export const Header = () => {
                             title="Нам надо серьезно поговорить..."
                             isVisible={isVisibleModalWindow} setIsVisible={setIsVisibleModalWindow}
                         >
-                            <p>Отправьте свой номер телефона и мы это обсудим</p>
+                            <CForm title='Заполните форму и мы свяжемся с вами.'/>
 
+                            <SocIcons/>
                         </ModalWindow>
                     )
                 }

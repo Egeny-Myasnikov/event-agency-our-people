@@ -1,0 +1,35 @@
+.peopleCard{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(var(--rgb-first-color), 1),  rgba(var(--rgb-third-color), 1));
+    border-radius: 50%;
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.avatar img{
+    border-radius: 50%;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+.name{
+    font-size: var(--text__lg);
+    text-align: center;
+}
+.role{
+    font-size: var(--text__sm);
+    color:rgba(var(--rgb-text-color), .5);
+    text-align: center;
+}

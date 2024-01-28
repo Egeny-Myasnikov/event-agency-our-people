@@ -1,0 +1,19 @@
+.section{
+    margin-top: 100px;
+}
+.title{
+    margin-bottom: 60px;
+}
+.ourPeopleList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.ourPeopleItem{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

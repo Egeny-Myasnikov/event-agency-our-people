@@ -1,3 +1,4 @@
+import { CForm } from './components/cForm'
 import s from './page.module.css'
 import { AdvantagesSection } from './sections/advantagesSection'
 import { HiroSection } from './sections/hiroSection'
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <HiroSection />
       <AdvantagesSection />
+      <CForm className={`${s.contactForm}`} title='Хотите организовать событие вместе с нами?' descr='Заполните форму и мы свяжемся с вами.'/>
       <ProjectsSection />
       <ReviewsSection />
     </>

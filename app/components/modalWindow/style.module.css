@@ -16,7 +16,7 @@
 }
 
 .modalWindow.open {
-    background: rgba(var(--rgb-second-color), .9);
+    background: rgba(var(--rgb-second-color), 1);
     visibility: visible;
     opacity:1;
     animation: showWindow var(--custom-transition);
@@ -32,7 +32,7 @@
     width: clamp(300px, 90vw, 950px);
     min-height: 300px;
     max-height: 100vh;
-    background: rgba(var(--rgb-third-color), .5);
+    background: rgba(var(--rgb-third-color), .3);
     border-radius: var(--border-radius);
     padding: 5%;
     overflow-y: auto;

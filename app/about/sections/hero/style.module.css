@@ -1,0 +1,15 @@
+.title{
+    margin-top: 100px;
+    font-size: var(--title__lg);
+    margin-bottom: 60px;
+    letter-spacing: 4px;
+}
+.description{
+    font-size: var(--title__sm);
+    margin-bottom: 30px;
+}
+@media (max-width: 950px){
+    .description{
+        font-size: var(--text__lg);
+    }
+}
